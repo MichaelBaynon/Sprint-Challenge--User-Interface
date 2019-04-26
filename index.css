@@ -146,19 +146,16 @@ footer nav a {
     text-decoration: none;
 }
 
-.imgLambda {
-   padding-left: 540px; 
-   padding-top: 50px;  
-   display: inline-block; 
-}
+
 
 .container-1 {
     display: flex; 
-    border: solid red;
+    
     align-items: center;
-    justify-content: space-evenly;
-     
-    width: 500px; 
+    justify-content: space-between;
+    align-self: flex-end; 
+    width: 800px;
+    margin: 15px auto;
      
     
 }
@@ -167,11 +164,54 @@ footer nav a {
     display: flex; 
     color: grey;  
     font-size: 18px;
-    
+    align-self: flex-end; 
 }
 
 .imgJumbo {
-    padding-left: 540px;
+    padding-left: 550px;
 }
+
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+      
+    
+}
+
+.text-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 800px;
+    margin: 0 auto;
+    
+    
+}
+
+.text-boxes .text-box {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 49%;
+    
+}
+
+.WorkTogether {
+    margin: 10px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.footerAboutX {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+
 
 
